@@ -7,6 +7,7 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+
 }
 
 .header {
@@ -14,12 +15,75 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+}
+
+/* Обрати внимание, что ширина блока должна быть 730px */
+.header__title {
+  margin-left: 64px;
+  font-size: 102px;
+  font-weight: 500;
+  line-height: 96px;
+  width: 730px;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__link:hover {
+  color: #1f1f1f;
+}
+
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url('../images/header-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  /* Либо background-size: cover и без repeat и position — надо узнать как правильнее. */
+}
+
+.header__square-pic {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  top: 64;
+  right: 0;
+  background-color: #2f80ed;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+}
+
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -29,3 +93,12 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.flex_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
