@@ -58,7 +58,7 @@
 }
 
 .header__link:hover {
-  color: #1f1f1f;
+  color: red;
 }
 
 .header__main-illustration {
@@ -92,14 +92,22 @@
 .logo {
   width: 183px;
   height: 32px;
+  background-size: 183px 32px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .logo_place_header {
-  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 2;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  background-size: 183px 35px;
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -251,6 +259,7 @@ color: #fff;
   top: 0;
   left: 0;
   height: 100vh;
+  max-height: 900px;
   background-color: #f2f2f2;
   background-position: bottom left;
   background-image: url('../images/feynman.png');
@@ -292,6 +301,10 @@ color: #fff;
   color: #000;
 }
 
+.feinman__link:hover {
+  color: #2f80ed;
+}
+
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -312,6 +325,111 @@ color: #fff;
   height: 877px;
   background-image: url('../images/kaufman-triangle.svg');
   background-size: 867px 637px;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+.footer {
+  min-height: 350px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
 }
+
+.footer__column {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+/* .footer__column_content_info {
+}
+
+.footer__column_content_social {
+} */
+
+.footer__author {
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #fff;
+}
+
+.footer__column-links {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__column-links:last-of-type {
+  margin-bottom: 16px;
+}
+
+.footer__column-links:hover {
+  color: #2f80ed;
+}
+
+.footer__social-links {
+  height: 30px;
+  padding-left: 29px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social-links:hover {
+  color: #2f80ed;
+}
+
+.facebook-icon {
+  background-image: url(../images/facebook_color_white.svg);
+}
+
+.vk-icon {
+  background-image: url(../images/vk_color_white.svg);
+}
+
+.instagram-icon {
+  background-image: url(../images/instagram_color_white.svg);
+}
+
+
+
+
+
