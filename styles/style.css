@@ -1,6 +1,6 @@
 /*
-серый (фон)             #1f1f1f
-серый (фон)             #f2f2f2
+темно-серый (фон)       #1f1f1f
+бледно-серый (фон)      #f2f2f2
 синий (ссылки, фигуры)  #2f80ed
 черный (текст)          #000000
 */
@@ -218,3 +218,50 @@
   font-weight: normal;
   line-height: 1.2;
 }
+
+.feinman {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #f2f2f2;
+  background-position: bottom left;
+  background-image: url('../images/feynman.png');
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+}
+
+.feinman__title {
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 684px;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.feinman__subtitle {
+  position: relative;
+  top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+.feinman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  text-decoration: none;
+  color: #000;
+}
+
