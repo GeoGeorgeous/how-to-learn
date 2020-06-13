@@ -467,21 +467,6 @@ color: #fff;
   color: #2f80ed;
 }
 
-/* Ссылки социальных сетей */
-.footer__social-links {
-  height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Наведение на ссылки социальных сетей */
-.footer__social-links:hover {
-  color: #2f80ed;
-}
-
 .footer__social-icon {
   margin-right: 10px;
 }
