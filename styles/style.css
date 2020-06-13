@@ -288,11 +288,11 @@ color: #fff;
 }
 
 /*
-    FEINMAN
+    feynman
 */
 
-/* Блок feinman */
-.feinman {
+/* Блок feynman */
+.feynman {
   position: relative;
   top: 0;
   left: 0;
@@ -306,7 +306,7 @@ color: #fff;
 }
 
 /* Заголовок блока */
-.feinman__title {
+.feynman__title {
   margin: 0;
   position: relative;
   top: 100px;
@@ -320,7 +320,7 @@ color: #fff;
 }
 
 /* Подзаголовок блока */
-.feinman__subtitle {
+.feynman__subtitle {
   margin-top: 0;
   padding-top: 70px;
   position: relative;
@@ -334,7 +334,7 @@ color: #fff;
 }
 
 /* Ссылка */
-.feinman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -346,7 +346,7 @@ color: #fff;
 }
 
 /* Ссылка при наведении */
-.feinman__link:hover {
+.feynman__link:hover {
   color: #2f80ed;
 }
 
@@ -377,7 +377,6 @@ color: #fff;
   width: 877px;
   height: 877px;
   background-image: url('../images/kaufman-triangle.svg');
-  background-size: 867px 637px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -471,9 +470,6 @@ color: #fff;
 /* Ссылки социальных сетей */
 .footer__social-links {
   height: 30px;
-  padding-left: 29px;
-  background-repeat: no-repeat;
-  background-position: left center;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
@@ -486,19 +482,8 @@ color: #fff;
   color: #2f80ed;
 }
 
-/* Иконка Facebook */
-.footer__social-links_icon_facebook-icon {
-  background-image: url(../images/facebook_color_white.svg);
-}
-
-/* Иконка vk */
-.footer__social-links_icon_vk-icon {
-  background-image: url(../images/vk_color_white.svg);
-}
-
-/* Иконка Instagram */
-.footer__social-links_icon_instagram-icon {
-  background-image: url(../images/instagram_color_white.svg);
+.footer__social-links img{
+  margin-right: 10px;
 }
 
 
