@@ -406,11 +406,10 @@ color: #fff;
 
 /* flex контейнер  */
 .footer__column {
+  display: flex;
+  flex-flow: column nowrap;
   width: 200px;
   height: 200px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 /* Первый столбец с логотипом и копирайтом. Логотип используем .logo с модифкатором place_footer */
@@ -422,13 +421,15 @@ color: #fff;
   justify-content: space-between;
 }
 
-
 .footer__column_content_info {
+  width: 200px;
+  height: 200px;
 }
 
 .footer__column_content_social {
+  width: 200px;
+  height: 200px;
 }
-
 
 /* Копирайт */
 .footer__author {
