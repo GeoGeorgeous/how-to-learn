@@ -422,13 +422,13 @@ color: #fff;
   justify-content: space-between;
 }
 
-/*
+
  .footer__column_content_info {
 }
 
 .footer__column_content_social {
 }
-*/
+
 
 /* Копирайт */
 .footer__author {
@@ -484,6 +484,7 @@ color: #fff;
 
 .footer__social-icon {
   margin-right: 10px;
+
 }
 
 
