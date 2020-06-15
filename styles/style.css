@@ -63,7 +63,7 @@
 .header__title {
   margin-left: 64px;
   font-size: 102px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 96px;
   width: 730px;
 }
@@ -108,14 +108,9 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url('../images/header-image.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  /* Либо background-size: cover и без repeat и position — надо узнать как правильнее. */
 }
 
-/* Контекнт страницы (все, кроме шапки и подвала)
+/* Контент страницы (все, кроме шапки и подвала)
 .content {
 
 } */
@@ -132,7 +127,6 @@
   align-items: center;
   flex-wrap: nowrap;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /* Разделение на 2 колонки по флексу */
@@ -145,20 +139,17 @@
   justify-content: space-between;
 }
 
-/* Первая колонка бриф с заголовком */
+/* Первая колонка бриф с заголовком и заголовок в ней */
 .two-columns__brief {
   width: 175px;
   height: 100%;
-}
-
-/* Заголовок в брифе */
-.two-columns__brief-title {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
   color: #2f80ed;
 }
+
 
 /* Вторая колонка с текстом */
 .two-columns__main-text {
@@ -183,7 +174,7 @@
 
 /* Жирный текст */
 .two-columns__span-accent {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 /*
@@ -198,7 +189,6 @@
   align-items: center;
   flex-wrap: nowrap;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 /* Заголовок  */
@@ -207,7 +197,7 @@
   width: 60%;
   text-align: center;
   font-size: 60px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 69px;
 }
 
@@ -234,6 +224,9 @@
 
 /* Таблица со всеми "клетками" */
 .table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-direction: row;
   width: 1100px;
@@ -265,7 +258,7 @@
 .table__heading {
   margin: 0;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.15;
 }
 
@@ -296,8 +289,7 @@ color: #fff;
   position: relative;
   top: 0;
   left: 0;
-  height: 100vh;
-  max-height: 900px;
+  min-height: 790px;
   background-color: #f2f2f2;
   background-position: bottom left;
   background-image: url('../images/feynman.png');
@@ -315,7 +307,7 @@ color: #fff;
   text-align: center;
   width: 684px;
   font-size: 120px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 1.15;
 }
 
@@ -421,13 +413,9 @@ color: #fff;
 }
 
 .footer__column_content_info {
-  width: 200px;
-  height: 200px;
 }
 
 .footer__column_content_social {
-  width: 200px;
-  height: 200px;
 }
 
 /* Копирайт */
@@ -441,15 +429,23 @@ color: #fff;
 
 /* Заголовок столбца */
 .footer__column-heading {
+  margin-top: 0;
   margin-bottom: 20px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: bold;
   line-height: 30px;
   color: #fff;
 }
 
 /* Ссылки в столбце content_info */
 .footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Стили для ссылок отдельно, потому что они по какой то причине не наследуются от footer__column-links */
+.footer__column-link {
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
@@ -457,13 +453,19 @@ color: #fff;
   text-decoration: none;
 }
 
+/* Ссылки наследуют стили от footer__column-link */
+.footer__column-link a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 /* Кастомный отступ у последней ссылки */
-.footer__column-links:last-of-type {
+.footer__column-link:last-of-type {
   margin-bottom: 16px;
 }
 
 /* Наведение на ссылки в footer в столбце content_info */
-.footer__column-links:hover {
+.footer__column-link:hover {
   color: #2f80ed;
 }
 
