@@ -397,12 +397,11 @@ color: #fff;
 .footer__column {
   display: flex;
   flex-flow: column nowrap;
-  width: 200px;
-  height: 200px;
 }
 
 /* Первый столбец с логотипом и копирайтом. Логотип используем .logo с модифкатором place_footer */
 .footer__column_content_copyright {
+  min-height: 250px;
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
