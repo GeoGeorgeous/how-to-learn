@@ -1,0 +1,16 @@
+/* padding-top должен быть 50px,
+но так как мы сместили блок с видео вниз на 50px,
+то паддинг становится 10 */
+.video__iframe {
+  position: relative;
+  bottom: -50px;
+  border: 0;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+
+
+.video__iframe:last-of-type {
+  margin: 0;
+}
