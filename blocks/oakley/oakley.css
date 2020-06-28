@@ -1,0 +1,10 @@
+/* Блок oakley */
+.oakley {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
