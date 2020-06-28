@@ -5,6 +5,7 @@
   line-height: 30px;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.3s;
 }
 
 /* Ссылки наследуют стили от footer__column-link */
@@ -20,5 +21,5 @@
 
 /* Наведение на ссылки в footer в столбце content_info */
 .footer__column-link:hover {
-  color: #2f80ed;
+  opacity: 0.5;
 }
