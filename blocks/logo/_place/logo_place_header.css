@@ -1,0 +1,10 @@
+/* Позиция логотипа в шапке */
+.logo_place_header {
+  height: 32px;
+  background-size: 183px 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 2;
+  background-image: url(../../../images/logo_place_header.svg);
+}

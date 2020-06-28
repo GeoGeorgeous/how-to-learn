@@ -1,0 +1,9 @@
+/* Блок digits */
+.digits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-top: 100px;
+}

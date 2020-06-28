@@ -1,0 +1,6 @@
+/* Позиция логотипа в подвале / другое изображение для логотипа в подвале */
+.logo_place_footer {
+  height: 35px;
+  background-size: 183px 35px;
+  background-image: url(../../../images/logo_place_footer.svg);
+}

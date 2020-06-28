@@ -1,0 +1,8 @@
+/* Стили для ссылок отдельно, потому что они по какой то причине не наследуются от footer__column-links */
+.footer__column-link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}

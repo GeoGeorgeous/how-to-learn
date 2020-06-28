@@ -1,0 +1,10 @@
+/* Ссылка в шапке */
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+/* Ссылка в шапке при наведении */
+.header__link:hover {
+color: red;
+}

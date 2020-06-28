@@ -1,0 +1,5 @@
+/* flex контейнер  */
+.footer__column {
+  display: flex;
+  flex-flow: column nowrap;
+}

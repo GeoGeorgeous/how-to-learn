@@ -1,0 +1,7 @@
+/* Вторая колонка с текстом */
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+}

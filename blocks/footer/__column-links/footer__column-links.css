@@ -1,0 +1,6 @@
+/* Ссылки в столбце content_info */
+.footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

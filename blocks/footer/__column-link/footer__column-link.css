@@ -1,0 +1,24 @@
+/* Стили для ссылок отдельно, потому что они по какой то причине не наследуются от footer__column-links */
+.footer__column-link {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Ссылки наследуют стили от footer__column-link */
+.footer__column-link a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Кастомный отступ у последней ссылки */
+.footer__column-link:last-of-type {
+  margin-bottom: 16px;
+}
+
+/* Наведение на ссылки в footer в столбце content_info */
+.footer__column-link:hover {
+  color: #2f80ed;
+}

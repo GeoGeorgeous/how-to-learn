@@ -1,0 +1,4 @@
+/* Отодвигаем текст ссылки справа от иконки */
+.footer__social-icon {
+  margin-right: 10px;
+}
