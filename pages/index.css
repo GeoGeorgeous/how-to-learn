@@ -12,6 +12,7 @@
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/digits/digits.css);
+@import url(../blocks/khan/khan.css);
 @import url(../blocks/section-title/section-title.css);
 /* Импортируем _theme_dark для section-title после, чтобы избежать конфликта стилей при импорте */
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);

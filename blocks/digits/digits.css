@@ -5,5 +5,5 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  padding-top: 100px;
+  padding: 100px 0 100px 0;
 }
