@@ -4,6 +4,7 @@
 
 /* Блок feynman */
 .feynman {
+  padding-top: 80px;
   position: relative;
   top: 0;
   left: 0;
