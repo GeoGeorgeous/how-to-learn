@@ -75,10 +75,14 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li class="video__iframe">
+            <iframe src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
+          </li>
+          <li class="video__iframe">
+            <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Здравствуйте, ваш браузер не может показать классную штуку, потому что не поддерживает iframe.</iframe>
+          </li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -224,12 +228,33 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" alt="Aarzamas" src="./images/logo/resources-arzamas.svg">
-          <img class="resources__logo" alt="N+1" src="./images/logo/resources-n1.svg">
-          <img class="resources__logo" alt="Полка" src="./images/logo/resources-polka.svg">
-          <img class="resources__logo" alt="Strelka" src="./images/logo/resources-strelka.svg">
-        </div>
+        <ul class="resources__logo-zone">
+
+          <li>
+            <a href="#">
+            <img class="resources__logo" alt="Логотип Aarzamas" src="./images/logo/resources-arzamas.svg">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="resources__logo">
+            <img class="resources__logo" alt="Логотип N+1" src="./images/logo/resources-n1.svg">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="resources__logo">
+            <img class="resources__logo" alt="Логотип Strelka" src="./images/logo/resources-strelka.svg">
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="resources__logo">
+            <img class="resources__logo" alt="Логотип Polka" src="./images/logo/resources-polka.svg">
+            </a>
+          </li>
+
+          </ul>
 
       </section>
 

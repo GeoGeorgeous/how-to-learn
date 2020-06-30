@@ -8,12 +8,6 @@
   transition: opacity 0.3s;
 }
 
-/* Ссылки наследуют стили от footer__column-link */
-.footer__column-link a {
-  color: inherit;
-  text-decoration: inherit;
-}
-
 /* Кастомный отступ у последней ссылки */
 .footer__column-link:last-of-type {
   margin-bottom: 16px;

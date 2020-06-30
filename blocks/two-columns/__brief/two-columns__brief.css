@@ -1,6 +1,6 @@
 /* Первая колонка бриф с заголовком и заголовок в ней */
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   height: 100%;
   margin: 0;
   font-size: 18px;
