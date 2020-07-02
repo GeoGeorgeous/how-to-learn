@@ -7,24 +7,10 @@
   position: relative;
   bottom: -50px;
   border: 0;
-  margin-right: 20px;
   padding-top: 10px;
 }
 
-/* Далее — единсвенный способ который я нашел, чтобы
-  вписать видео в li и убрать margin у последнего блока c видео,
-  без ввода новых элементов в БЭМ (после добавления класса .video__iframe
-  тегу li вместо iframe).
-*/
 
-.video__iframe:last-of-type {
-  margin-right: 0;
-}
-
-.video__iframe iframe {
-  width: 100%;
-  height: 100%;
-}
 
 
 

@@ -8,7 +8,6 @@
 .two-columns {
   display: flex;
   flex-direction: row;
-  min-height: 200px;
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
