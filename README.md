@@ -19,15 +19,6 @@ TED videos will introduce you to *procrastination* — the reason this text was 
   - CSS Animations
   - Git
 
-### Что было самым сложным
-
-Во время разработки некоторые вещи заняли у меня гораздо больше времени, чем я ожидал. Я выписал их, чтобы акцентировать свое внимание на них после сдачи проекта:
-  - Как обрезать изображения, вложенные в div без `object-fit`.
-  - `q` vs `blockquote`.
-  - Как грамотно указывать `margin` для секций в рамках БЭМ.
-  - Как расположить третью и последнюю карточку в блоке techniques без псеводкассов.
-  - Какие именно символы нужно заменять на "Сharacter codes for the HTML".
-
 ### Roadmap
 - [ ] Responsive and adaptive layout
 - [ ] Add existing links to footer
