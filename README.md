@@ -14,11 +14,9 @@ TED videos will introduce you to *procrastination* — the reason this text was 
 
 ### Built With
 
-Какие технологии были использованы:
-  - Методология БЭМ для классов и организации файлов
-  - CSS анимации
-  - FlexBox
-  - Псевдоклассы
+  - HTML5 / CSS
+  - [BEM](https://en.bem.info/) ([BEM Nested](https://en.bem.info/methodology/filestructure/#nested))
+  - CSS Animations
   - Git
 
 ### Что было самым сложным
@@ -30,13 +28,13 @@ TED videos will introduce you to *procrastination* — the reason this text was 
   - Как расположить третью и последнюю карточку в блоке techniques без псеводкассов.
   - Какие именно символы нужно заменять на "Сharacter codes for the HTML".
 
-### Планы на будущее
+### Roadmap
+- [ ] Responsive and adaptive layout
+- [ ] Add existing links to footer
 
-1. **Сделать сайт адаптивным.**
-2. **Задизайнить форму, через которую пользователи смогут отправить мне комментарий.**
-2. Добавить все значения для атрибута `href` у ссылок.
-3. Персонализировать copyright в footer, чтобы при нажатии на него оно полностью менялось с *Geo* на *Георгий Горчев*, используя псеводклассы и `content` (если это возможно, конечно).
-4. **Проверить код на кроссбраузерность и дописать все вендорные префиксы.**
-5. Подключить другие шрифты.
+### Installation
 
-
+Clone the repo
+   ```sh
+   git clone https://github.com/GeoGeorgeous/how-to-learn.git
+   ```
