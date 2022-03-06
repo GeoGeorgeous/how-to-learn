@@ -1,7 +1,7 @@
 # How To Learn
 
 <p align="center" width="100%">
-    <a href="https://geogeorgeous.github.io/how-to-learn/"><img width="66%" src="./README_COVER.png"></a><br>
+    <a href="https://geogeorgeous.github.io/how-to-learn/"><img width="70%" src="./README.png"></a><br>
        🚀 <a href="https://geogeorgeous.github.io/how-to-learn/">View Live</a>
 </p>
 
