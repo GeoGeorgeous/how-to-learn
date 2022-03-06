@@ -4,7 +4,7 @@
 
 
 <p align="center" width="100%">
-    <img width="66%" src="./README_COVER.png"">
+    <a href="https://github.com/GeoGeorgeous/how-to-learn"><img width="66%" src="./README_COVER.png"></a>
 </p>
 
 
