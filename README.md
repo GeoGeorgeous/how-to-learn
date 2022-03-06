@@ -4,7 +4,7 @@
 
 
 <p align="center" width="100%">
-    <img width="33%" src="./README_COVER.png"">
+    <img width="66%" src="./README_COVER.png"">
 </p>
 
 
