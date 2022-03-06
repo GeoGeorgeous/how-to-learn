@@ -15,6 +15,7 @@ TED videos will introduce you to *procrastination* — the reason this text was 
 ### Built With
 
   - HTML5 / CSS
+  - Semantic and valid layout
   - [BEM](https://en.bem.info/) ([BEM Nested](https://en.bem.info/methodology/filestructure/#nested))
   - CSS Animations
   - Git
