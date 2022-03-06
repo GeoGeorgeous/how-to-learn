@@ -1,6 +1,6 @@
 # How To Learn
 
-**How To Learn** — это первый одностраничный сайт в моем портфолио, сделанный в рамках двух спринтов в [Яндекс.Практикуме](https://praktikum.yandex.ru/).
+**How To Learn** —1 это первый одностраничный сайт в моем портфолио, сделанный в рамках двух спринтов в [Яндекс.Практикуме](https://praktikum.yandex.ru/).
 
 <div style="text-align:center"><img src="./cover.png" /></div>
 
