@@ -2,7 +2,10 @@
 
 **How To Learn** —1 это первый одностраничный сайт в моем портфолио, сделанный в рамках двух спринтов в [Яндекс.Практикуме](https://praktikum.yandex.ru/).
 
-<div style="text-align:center"><img src="./README_COVER.png" /></div>
+
+<p align="center" width="100%">
+    <img width="33%" src="./README_COVER.png"">
+</p>
 
 
 
